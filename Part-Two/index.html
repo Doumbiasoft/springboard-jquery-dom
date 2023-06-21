@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+    href="https://unpkg.com/bootstrap/dist/css/bootstrap.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous"
+  />
+    <script defer src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script defer src="/Part-Two/app.js"></script>
+    <title>Movies App!</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="row mb-5 p-5">
+                <h2>Movies App!</h2>
+                <form>
+                <div class="col-lg-6 m-2">
+                  <input name="title" id="title" class="form-control" type="text" required placeholder="Title">
+                  </div>    
+                  <div class="col-lg-6 m-2">
+                      <input name="rating" id="rating" class="form-control" type="number" min="0" max="5" required placeholder="Rate">
+                  </div>
+                  <div class="col-lg-6 m-2">
+                      <button type="submit" class="btn btn-warning">SUBMIT</button>
+                  </div>
+                </div>
+                </form>
+              </div>
+
+        <ul id="list" style="font-size: xx-larger;margin:40px;text-transform:uppercase;"></ul>
+        </div>
+    </div>
+</body>
+</html>
